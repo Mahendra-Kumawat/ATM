@@ -97,63 +97,6 @@ sbi = Atm()
 
 
 
-# Dynamic Programming Python implementation of Coin
-# Change problem
-# def count(arr,length,n):
-# 	table = [0 for k in range(n+1)]
-
-# 	table[0] = 1
-
-# 	for i in range(0,len(arr)):
-# 		for j in range(arr[i],n+1):
-# 			table[j] += table[j-arr[i]]
-
-# 	return table[n]
-
-# list1 = [1, 2, 5,10]
-# length = len(list1)
-# n = 10
-# x = count(list1, length, n)
-# print (x)
-
-
-
-
-# str1 = "gurukul"
-# str1 = list(str1)
-# # print(str1)
-# start = 0
-# end = len(str1)-1
-# count = 0
-# ans = 0
-# def palindrome(arr,start,end,count,ans):
-#     # to make the condition 
-#     if str1 == str1[::-1]:
-#         return 0
-#     while start <= end:
-#         arr[start] , arr[end] = arr[end] , arr[start]
-#         start = start + 1
-#         end = end -1 
-#         count = count + 1
-#     print(arr)
-#     # to check the string is palindrome or not palindrome 
-#     # if arr == str1:
-#     if arr == arr[::-1]:
-#         ans = count 
-#     else:
-#         ans = -1
-    
-#     return ans 
-      
-# # to call the function 
-# index = palindrome(str1,start,end,count,ans)
-# print(index)
-
-
-
-
-
-
 
 
 
